@@ -13,13 +13,13 @@ h1, h2, h3 {
 }
 
 .header:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 3px;
-	width: 0px;
-	background: transparent;
-	animation: borderwidth .5s forwards;
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  animation: borderwidth .5s forwards;
 }
 
 @keyframes borderwidth {
@@ -27,9 +27,8 @@ h1, h2, h3 {
     width: 0px;
     background-color: transparent;
   }
-
   to {
     width: 100%;
-    background-color: purple;
+    background-color: #9655c5;
   }
 }
