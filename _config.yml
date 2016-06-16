@@ -1,6 +1,6 @@
 name: Andrea Vaghi
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 baseurl: /blog
 
 github_username: andreavaghi
